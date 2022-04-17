@@ -12,10 +12,10 @@ import Rootmates from './components/pages/Rootmates';
 function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Navbar sticky="top"/>
         <Routes>
-          <Route path='/mydevportfolio/' element={<Home/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='/remindmed' element={<RemindMed/>} />
           <Route path='/widtw' element={<Widtw/>} />
           <Route path='/rootmates' element={<Rootmates/>} />
