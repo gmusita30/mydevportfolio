@@ -12,7 +12,7 @@ import Rootmates from './components/pages/Rootmates';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar sticky="top"/>
         <Routes>
           <Route path='/' element={<Home/>} />
