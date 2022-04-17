@@ -1,36 +1,54 @@
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Container, Nav} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
-import { Outlet, Link } from "react-router-dom";
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
-const NavBar = () => {
-    return (
-        <>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <Link to ="/" className="nav-link" aria-current="page">Home</Link>                    
-                    </li>
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
 
-                    <li class="nav-item">
-                    <Link to ="/sat" className="nav-link" aria-current="page">Saturday</Link>                    
-                    </li>
+  useEffect(() => {
+    showButton();
+  }, []);
 
-                    <li class="nav-item">
-                    <Link to ="/sun" className="nav-link" aria-current="page">Sunday</Link>
-                    </li>
-                </ul>
-                </div>
-            </div>
-            </nav>
-        <Outlet />
-        </>
-    )
+  window.addEventListener('resize', showButton);
+
+  return (
+    <>
+      <nav className='navbar fixed-top'>
+        <div className='navbar-container'>
+        <Nav.Link className='navbar-logo' href="/">Gab
+            <i class='fab' /></Nav.Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+            <Nav.Link className='nav-links' href="/#About">About</Nav.Link>
+            </li>
+            <li className='nav-item'>
+            <Nav.Link className='nav-links' href="/#projects">Projects</Nav.Link>
+            </li>
+            <li className='nav-item'>
+            <Nav.Link className='nav-links' href="/#contact">Contact</Nav.Link>
+            </li> 
+          </ul>
+        </div>
+      </nav>
+    </>
+  );
 }
 
-export default NavBar;
+export default Navbar;
