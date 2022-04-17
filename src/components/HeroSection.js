@@ -12,7 +12,7 @@ function HeroSection() {
       <ScrollToTop smooth />
 
       <h5>Hello!</h5>
-      <video src='https://vod-progressive.akamaized.net/exp=1650173931~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F521%2F17%2F427607440%2F1854773919.mp4~hmac=4385910028e4c59777732130bd9ad9b8ebadb80a8c07ff95afe1faf6b42e3a32/vimeo-prod-skyfire-std-us/01/521/17/427607440/1854773919.mp4?filename=Computer+-+36503.mp4' autoPlay loop muted />
+      <video src='https://user-images.githubusercontent.com/60341467/163719536-ffb33a49-0a21-4bb0-8df4-ce455e5d5553.mp4' autoPlay loop muted />
       <h1>I'm Gabriel Adrian M. Usita</h1>
       <p> {' '}
         <Typical
