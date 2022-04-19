@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar fixed-top'>
         <div className='navbar-container'>
-        <Nav.Link className='navbar-logo' href="/hero">Gab
+        <Nav.Link className='navbar-logo' href="#hero">Gab
             <i class='fab' /></Nav.Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
