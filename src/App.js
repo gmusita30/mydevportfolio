@@ -8,7 +8,6 @@ import Widtw from './components/pages/Widtw';
 import Ibgame from './components/pages/Ibgame';
 import Node from './components/pages/nodeblog';
 import Rootmates from './components/pages/Rootmates';
-import About from './components/About';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Navbar sticky="top"/>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/about' element={<About/>} />
           <Route path='/remindmed' element={<RemindMed/>} />
           <Route path='/widtw' element={<Widtw/>} />
           <Route path='/rootmates' element={<Rootmates/>} />
