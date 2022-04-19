@@ -36,13 +36,13 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-            <Nav.Link className='nav-links' href="/#About">About</Nav.Link>
+            <Nav.Link className='nav-links' href="#About">About</Nav.Link>
             </li>
             <li className='nav-item'>
-            <Nav.Link className='nav-links' href="/#projects">Projects</Nav.Link>
+            <Nav.Link className='nav-links' href="#projects">Projects</Nav.Link>
             </li>
             <li className='nav-item'>
-            <Nav.Link className='nav-links' href="/#contact">Contact</Nav.Link>
+            <Nav.Link className='nav-links' href="#contact">Contact</Nav.Link>
             </li> 
           </ul>
         </div>
