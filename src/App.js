@@ -3,11 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import RemindMed from './components/pages/RemindMed';
-import Widtw from './components/pages/Widtw';
-import Ibgame from './components/pages/Ibgame';
-import Node from './components/pages/nodeblog';
-import Rootmates from './components/pages/Rootmates';
+
 
 function App() {
   return (
@@ -16,11 +12,6 @@ function App() {
         <Navbar sticky="top"/>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/remindmed' element={<RemindMed/>} />
-          <Route path='/widtw' element={<Widtw/>} />
-          <Route path='/rootmates' element={<Rootmates/>} />
-          <Route path='/ibgame' element={<Ibgame/>} />
-          <Route path='/nodeblog' element={<Node/>} />
         </Routes>
       </BrowserRouter>
     </>
