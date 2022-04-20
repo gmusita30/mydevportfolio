@@ -103,7 +103,8 @@ function Cards() {
               </ul>
               <br></br>
               <div>
-                <Carousel className="main-slide">
+              <br></br>
+                <Carousel showThumbs={false} className="main-slide">
                             <div>
                                 <img src={Remindmed}  />
                             </div>
@@ -146,6 +147,7 @@ function Cards() {
                         </Carousel>  
               </div>
               <div>
+              <br></br>
                 <button style={{width: "70px", height: "40px"}} class="glow-on-hover" onClick={() => setModalIsOpen4(false)}>Close</button>
               </div>
             </Modal>
@@ -192,9 +194,12 @@ function Cards() {
               </ul>
               <br></br>
               <a href='https://rootmates.epizy.com/' target="_blank"><button style={{width: "170px", height: "60px"}} class="glow-on-hover" type="button">View Deployed Project</button> </a>
+              <br></br>
 
               <div>
-                <Carousel className="main-slide">
+              <br></br>
+
+                <Carousel showThumbs={false} className="main-slide">
                             <div>
                                 <img src={Rootmates0}  />
                             </div>
@@ -237,6 +242,7 @@ function Cards() {
                         </Carousel>  
               </div>
               <div>
+              <br></br>
                 <button style={{width: "70px", height: "40px"}} class="glow-on-hover" onClick={() => setModalIsOpen1(false)}>Close</button>
               </div>
             </Modal>
@@ -273,7 +279,8 @@ function Cards() {
               <a href='https://gmusita30.github.io/in-between-game-using-react/' target="_blank"><button style={{width: "170px", height: "60px"}} class="glow-on-hover" type="button">View Deployed Project</button> </a>
 
               <div>
-                <Carousel className="main-slide">
+              <br></br>
+                <Carousel showThumbs={false} className="main-slide">
                             <div>
                                 <img src={Ibgamepic}  />
                             </div>
@@ -298,6 +305,7 @@ function Cards() {
                         </Carousel>  
               </div>
               <div>
+              <br></br>
                 <button style={{width: "70px", height: "40px"}} class="glow-on-hover" onClick={() => setModalIsOpen(false)}>Close</button>
               </div>
             </Modal>
@@ -333,7 +341,8 @@ function Cards() {
               </ul>
               <br></br>
               <div>
-                <Carousel className="main-slide">
+              <br></br>
+                <Carousel showThumbs={false} className="main-slide">
                             <div>
                                 <img src={Nodeblog}  />
                             </div>
@@ -356,6 +365,7 @@ function Cards() {
                         </Carousel>  
               </div>
               <div>
+              <br></br>
                 <button style={{width: "70px", height: "40px"}} class="glow-on-hover" onClick={() => setModalIsOpen2(false)}>Close</button>
               </div>
             </Modal>
@@ -391,7 +401,7 @@ function Cards() {
               <div>
               <br></br>
 
-                <Carousel className="main-slide">
+                <Carousel showThumbs={false} className="main-slide">
                             <div>
                                 <img src={Widtwpic}  />
                             </div>
@@ -414,6 +424,7 @@ function Cards() {
                         </Carousel>  
               </div>
               <div>
+              <br></br>
                 <button style={{width: "70px", height: "40px"}} class="glow-on-hover" onClick={() => setModalIsOpen3(false)}>Close</button>
               </div>
             </Modal>
