@@ -77,6 +77,7 @@ function Cards() {
               onClick={() => setModalIsOpen4(true)}
             />
             <Modal isOpen={modalIsOpen4} onRequestClose={() => setModalIsOpen4(false)}>
+              <br></br>
               <h2>RemindMed Mobile Application</h2>
               <br></br>
               <p>This project was a requirement for us in our Capstone I & II course when we are in our Special term and 4th year in college. The purpose of this project is to provide a mobile application that would assist older adults or senior citizens to keep track of their medications and help in reminding them to take their medicine as prescribed by their doctors. The application aims to help people who tend to forget to properly take their medication on-time, especially for people who have chronic diseases and the elderly. Using the OCR technology and text to speech, the application is also designed to help a wide range of users, especially for people of old age and outpatients who have poor or deteriorating eyesight in determining the medication they will be taking. </p>
@@ -157,6 +158,7 @@ function Cards() {
               onClick={() => setModalIsOpen1(true)}
             />
             <Modal isOpen={modalIsOpen1} onRequestClose={() => setModalIsOpen1(false)}>
+              <br></br>
               <h2>Rootmates Clothing</h2>
               <br></br>
               <p>This project was a requirement for us in our Software Engineering course when we are in our 3rd year in college. The team made an agreement to a business named Rootmate’s Clothing to create a web-based ordering system to promote their startup business. The team’s main objective is to create a web-based ordering system where the users can generally purchase designs online and at the same time, promote the client’s business, attain the client’s needs and create an inventory system to manage their stocks.</p>
@@ -254,6 +256,7 @@ function Cards() {
               onClick={() => setModalIsOpen(true)}
             />
             <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+              <br></br>
               <h2>In-between game using React JS</h2>
               <br></br>
               <p>This project was given to us as an activity for our elective class about React JS in University of Santo Tomas. We are tasked to create an In-between game using React JS.</p>
@@ -316,6 +319,7 @@ function Cards() {
 
             />
               <Modal isOpen={modalIsOpen2} onRequestClose={() => setModalIsOpen2(false)}>
+              <br></br>
               <h2>Siklista Blog using Node</h2>
               <br></br>
               <p>This project was given to us during our internship at TELUS International
@@ -375,6 +379,7 @@ function Cards() {
               onClick={() => setModalIsOpen3(true)}
             />
             <Modal isOpen={modalIsOpen3} onRequestClose={() => setModalIsOpen3(false)}>
+              <br></br>
               <h2>What I did this Weekend Blog</h2>
               <br></br>
               <p>This project was given to us during our internship at TELUS International
