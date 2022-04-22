@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mydevportfolio/static/css/main.6764c1d4.css",
-    "main.js": "/mydevportfolio/static/js/main.c0808bc7.js",
+    "main.js": "/mydevportfolio/static/js/main.4d37def4.js",
     "static/media/gradpic.jpg": "/mydevportfolio/static/media/gradpic.b27f4de7c6781b955238.jpg",
     "static/media/nodeblog.png": "/mydevportfolio/static/media/nodeblog.22db34488d4f6f1d3981.png",
     "static/media/nodeblog(2).png": "/mydevportfolio/static/media/nodeblog(2).b55e72da3b07193990c7.png",
@@ -21,7 +21,7 @@
     "static/media/rootmates(1).png": "/mydevportfolio/static/media/rootmates(1).e79950dba6fb2388fb2e.png",
     "static/media/widtw(3).png": "/mydevportfolio/static/media/widtw(3).2eb38dab6e63e4a9a632.png",
     "static/media/rootmates.png": "/mydevportfolio/static/media/rootmates.9f08a15d4d35454de8d8.png",
-    "static/media/Usita-Gabriel-ust-cics.pdf": "/mydevportfolio/static/media/Usita-Gabriel-ust-cics.7aa5b78b0fafe2eca3a2.pdf",
+    "static/media/Usita, Gabriel Adrian_CV.pdf": "/mydevportfolio/static/media/Usita, Gabriel Adrian_CV.c91fb178e9e25c73d4e4.pdf",
     "static/media/remindmed6.png": "/mydevportfolio/static/media/remindmed6.36f3045bbf0efb46bdae.png",
     "static/media/remindmed2.png": "/mydevportfolio/static/media/remindmed2.80bcb9a2b3d8bd305190.png",
     "static/media/remindmed9.png": "/mydevportfolio/static/media/remindmed9.104f5c0240df6cecbbeb.png",
@@ -51,10 +51,10 @@
     "static/media/nodeblog(3).png": "/mydevportfolio/static/media/nodeblog(3).40e6acbda7b30df0dfb2.png",
     "index.html": "/mydevportfolio/index.html",
     "main.6764c1d4.css.map": "/mydevportfolio/static/css/main.6764c1d4.css.map",
-    "main.c0808bc7.js.map": "/mydevportfolio/static/js/main.c0808bc7.js.map"
+    "main.4d37def4.js.map": "/mydevportfolio/static/js/main.4d37def4.js.map"
   },
   "entrypoints": [
     "static/css/main.6764c1d4.css",
-    "static/js/main.c0808bc7.js"
+    "static/js/main.4d37def4.js"
   ]
 }
