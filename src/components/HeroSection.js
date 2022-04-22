@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import './HeroSection.css';
 import ScrollToTop from "react-scroll-to-top";
-import CV from '../assets/Usita-Gabriel-ust-cics.pdf'
+import CV from '../assets/Usita, Gabriel Adrian_CV.pdf'
 
 import Typical from 'react-typical'
 
