@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mydevportfolio/static/css/main.6764c1d4.css",
-    "main.js": "/mydevportfolio/static/js/main.4d37def4.js",
+    "main.css": "/mydevportfolio/static/css/main.2a27f248.css",
+    "main.js": "/mydevportfolio/static/js/main.b7d4a6b1.js",
     "static/media/gradpic.jpg": "/mydevportfolio/static/media/gradpic.b27f4de7c6781b955238.jpg",
     "static/media/nodeblog.png": "/mydevportfolio/static/media/nodeblog.22db34488d4f6f1d3981.png",
     "static/media/nodeblog(2).png": "/mydevportfolio/static/media/nodeblog(2).b55e72da3b07193990c7.png",
@@ -50,11 +50,11 @@
     "static/media/nodeblog(5).png": "/mydevportfolio/static/media/nodeblog(5).36890cf146c9c6960e82.png",
     "static/media/nodeblog(3).png": "/mydevportfolio/static/media/nodeblog(3).40e6acbda7b30df0dfb2.png",
     "index.html": "/mydevportfolio/index.html",
-    "main.6764c1d4.css.map": "/mydevportfolio/static/css/main.6764c1d4.css.map",
-    "main.4d37def4.js.map": "/mydevportfolio/static/js/main.4d37def4.js.map"
+    "main.2a27f248.css.map": "/mydevportfolio/static/css/main.2a27f248.css.map",
+    "main.b7d4a6b1.js.map": "/mydevportfolio/static/js/main.b7d4a6b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6764c1d4.css",
-    "static/js/main.4d37def4.js"
+    "static/css/main.2a27f248.css",
+    "static/js/main.b7d4a6b1.js"
   ]
 }
