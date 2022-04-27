@@ -33,18 +33,18 @@ function About() {
                 </p>
                 <br></br>
                 <ul data-aos="slide-left" className="list__about">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>MongoDB</li>
-                  <li>Java</li>
-                  <li>Firebase</li>
-                  <li>Python</li>
-                  <li>PHP</li>
+                  <li data-aos="slide-left">HTML</li>
+                  <li data-aos="slide-left">CSS</li>
+                  <li data-aos="slide-left">Bootstrap</li>
+                  <li data-aos="slide-left">JavaScript</li>
+                  <li data-aos="slide-left">React</li>
+                  <li data-aos="slide-left">Node.js</li>
+                  <li data-aos="slide-left">Express</li>
+                  <li data-aos="slide-left">MongoDB</li>
+                  <li data-aos="slide-left">Java</li>
+                  <li data-aos="slide-left">Firebase</li>
+                  <li data-aos="slide-left">Python</li>
+                  <li data-aos="slide-left">PHP</li>
                 </ul>
        
               </div>
