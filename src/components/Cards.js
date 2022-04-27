@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import Modal from 'react-modal';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import Ibgamepic from "../assets/ibgame.png";
 import Ibgamepic1 from "../assets/ibgame1.png";
@@ -64,14 +67,18 @@ function Cards() {
   const [modalIsOpen3, setModalIsOpen3] = useState(false)
   const [modalIsOpen4, setModalIsOpen4] = useState(false)
 
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, []);
+
   return (
     <>
     <div id="projects" className='cards'>
-      <h1 className="card__heading">My Projects</h1>
+      <h1 data-aos="fade-down" className="card__heading">My Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            <CardItem data-aos="slide-right"
               src='images/remindmed15.png'
               text='RemindMed: Medication Reminder and Tracker using Optical Character Recognition and Text-to-Speech'
               onClick={() => setModalIsOpen4(true)}
