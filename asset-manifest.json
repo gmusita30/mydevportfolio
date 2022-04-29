@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mydevportfolio/static/css/main.c60f4de7.css",
+    "main.css": "/mydevportfolio/static/css/main.377b3210.css",
     "main.js": "/mydevportfolio/static/js/main.e32d243c.js",
     "static/media/gradpic.jpg": "/mydevportfolio/static/media/gradpic.b27f4de7c6781b955238.jpg",
     "static/media/nodeblog.png": "/mydevportfolio/static/media/nodeblog.22db34488d4f6f1d3981.png",
@@ -50,11 +50,11 @@
     "static/media/nodeblog(5).png": "/mydevportfolio/static/media/nodeblog(5).36890cf146c9c6960e82.png",
     "static/media/nodeblog(3).png": "/mydevportfolio/static/media/nodeblog(3).40e6acbda7b30df0dfb2.png",
     "index.html": "/mydevportfolio/index.html",
-    "main.c60f4de7.css.map": "/mydevportfolio/static/css/main.c60f4de7.css.map",
+    "main.377b3210.css.map": "/mydevportfolio/static/css/main.377b3210.css.map",
     "main.e32d243c.js.map": "/mydevportfolio/static/js/main.e32d243c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60f4de7.css",
+    "static/css/main.377b3210.css",
     "static/js/main.e32d243c.js"
   ]
 }
