@@ -2,6 +2,9 @@
   padding: 4rem;
   background: rgb(28, 27, 27);
 }
+[id]{
+  scroll-margin-top: 4rem;
+}
 
 h1 {
   text-align: center;

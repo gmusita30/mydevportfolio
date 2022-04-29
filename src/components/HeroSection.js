@@ -32,8 +32,8 @@ function HeroSection() {
         ></Typical>
       </p>
       <>
-      <a href={CV} download target="_blank">
-      <button data-aos="slide-up" class="btn-change4">Download CV here</button>
+      <a data-aos="slide-up" href={CV} download target="_blank">
+      <button  class="btn-change4">Download CV here</button>
       </a>
       </>
 

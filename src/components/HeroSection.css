@@ -63,6 +63,12 @@ video {
   margin-left: 4px;
 }
 
+[id]{
+  scroll-padding-top: 0;
+  scroll-margin-top: 4rem;
+
+}
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
