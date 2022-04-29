@@ -83,9 +83,15 @@ button.about.btn.pointer {
         padding: 20px;
         justify-content: center;
         flex-direction: column;
-        text-align: center;
-        align-content: center;
-
+      }
+    
+      .row{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: flex-start;
+        justify-content: center;
       }
     p.about__text{
         color: white;
@@ -97,14 +103,7 @@ button.about.btn.pointer {
         width: 400px;
         height: auto;
     }
-    .row{
-        display: block;
-        width: 100%;
-        flex-wrap: wrap;
-        overflow: hidden;
-        align-items: flex-start;
-        justify-content: center;
-      }
+    
 
 }
 @media only screen and (max-width: 912px){
