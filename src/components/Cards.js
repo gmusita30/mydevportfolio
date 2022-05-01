@@ -57,6 +57,8 @@ import Remindmed9 from "../assets/remindmed9.png";
 import Remindmed11 from "../assets/remindmed11.png";
 import Remindmed12 from "../assets/remindmed12.png";
 import Remindmed14 from "../assets/remindmed14.png";
+import Remindmed15 from "../assets/remindmed15.png";
+
 
 Modal.setAppElement('#root')
 
@@ -79,7 +81,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem data-aos="slide-right"
-              src='images/remindmed15.png'
+              src={Remindmed15}
               text='RemindMed: Medication Reminder and Tracker using Optical Character Recognition and Text-to-Speech'
               onClick={() => setModalIsOpen4(true)}
             />
@@ -161,7 +163,7 @@ function Cards() {
               </div>
             </Modal>
             <CardItem
-              src='images/rootmates.png'
+              src={Rootmates0}
               text='Online Ordering System Designated For Custom Printing'
               onClick={() => setModalIsOpen1(true)}
               style={{overlay: {marginTop: "5%"}}}
@@ -260,7 +262,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/ibgame5.png'
+              src={Ibgamepic5}
               text='In-between Game using React JS'
               onClick={() => setModalIsOpen(true)}
             />
@@ -322,7 +324,7 @@ function Cards() {
               </div>
             </Modal>
             <CardItem
-              src='images/nodeblog.png'
+              src={Nodeblog}
               text='Siklista Blog using NodeJS'
               onClick={() => setModalIsOpen2(true)}
 
@@ -383,7 +385,7 @@ function Cards() {
               </div>
             </Modal>
             <CardItem
-              src='images/widtw.png'
+              src={Widtwpic}
               text='What I did this Weekend blog using React JS'
               onClick={() => setModalIsOpen3(true)}
             />
