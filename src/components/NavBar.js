@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import { Container, Nav} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 function Navbar() {
@@ -29,20 +27,19 @@ function Navbar() {
     <>
       <nav className='navbar fixed-top'>
         <div className='navbar-container'>
-        <Nav.Link className='navbar-logo' href="#hero">Gab
-            <i class='fab' /></Nav.Link>
+        <Link to="hero" spy={true} smooth={true} offset={-150} duration={500} className='navbar-logo'>Gab<i class='fab' /></Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-            <Nav.Link className='nav-links' href="#About">About</Nav.Link>
+            <Link to="about" spy={true} smooth={true} offset={-80} duration={500} className='nav-links'>About</Link>
             </li>
             <li className='nav-item'>
-            <Nav.Link className='nav-links' href="#projects">Projects</Nav.Link>
+            <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} className='nav-links'>Projects</Link>
             </li>
             <li className='nav-item'>
-            <Nav.Link className='nav-links' href="#contact">Contact</Nav.Link>
+            <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className='nav-links'>Contact</Link>
             </li> 
           </ul>
         </div>

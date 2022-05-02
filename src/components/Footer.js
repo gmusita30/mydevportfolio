@@ -22,11 +22,11 @@ function Footer() {
           If you want to know more about me or if you are interested in working with me or hiring me as your Developer,<br></br> feel free to contact me through my social media accounts below.<br></br>Any message would be much appreciated. Thank you!</p>
       </section>
 
-      <div className='social-container'>
-        <a data-aos="flip-right" href='https://www.linkedin.com/in/gabriel-adrian-usita/' target="_blank" className='ld'><FontAwesomeIcon icon={faLinkedin} size='3x'/></a>
-        <a data-aos="flip-left" href='https://mail.google.com/mail/?view=cm&source=mailto&to=gabrielusita@gmail.com' target="_blank" className='gm'><FontAwesomeIcon icon={faGoogle} size='3x'/></a>
-        <a data-aos="flip-up" href='https://github.com/gmusita30' target="_blank" className='gh'><FontAwesomeIcon icon={faGithub} size='3x'/></a>
-        <a data-aos="flip-down" href='https://www.facebook.com/gabriel.usita/' target="_blank" className='fb'><FontAwesomeIcon icon={faFacebook} size='3x'/></a>
+      <div data-aos="flip-up" className='social-container'>
+        <a href='https://www.linkedin.com/in/gabriel-adrian-usita/' target="_blank" className='ld'><FontAwesomeIcon icon={faLinkedin} size='3x'/></a>
+        <a href='https://mail.google.com/mail/?view=cm&source=mailto&to=gabrielusita@gmail.com' target="_blank" className='gm'><FontAwesomeIcon icon={faGoogle} size='3x'/></a>
+        <a href='https://github.com/gmusita30' target="_blank" className='gh'><FontAwesomeIcon icon={faGithub} size='3x'/></a>
+        <a href='https://www.facebook.com/gabriel.usita/' target="_blank" className='fb'><FontAwesomeIcon icon={faFacebook} size='3x'/></a>
 
 
 
